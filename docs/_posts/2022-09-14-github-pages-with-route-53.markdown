@@ -5,20 +5,21 @@ In this guide I will explain how to deploy a website to GitHub pages forcing HTT
 - Set up the GitHub repo
 - Commit and push an index.html or use Jekyll
 - Configure AWS Route 53
+
 ### Step 1: Create GitHub repo and turn on GitHub Pages
 If it does not exist yet, create a repository using the naming pattern your-github-username.github.io. You can follow this tutorial to create your GitHub Page.[GitHub Page quickstart](https://docs.github.com/en/pages/quickstart)
+
 ### Step 2: Push source code to GitHub
 
 1. Clone the repo to your local machine
-
     `git clone git@github.com:your-github-username/your-github-username.github.io.git && cd your-github-username.github.io`
-2. Create an index.html file with some content
 
+2. Create an index.html file with some content
     `echo "Hello GitHub Pages!" > index.html`
+
 3. Looking forward, we will need to have a file named CNAME that contains a single row: your custom domain. For example: example.com
 
 4. Push the files to GitHub
-
     `git add . && git commit -m 'Create content and CNAME record' && git push`
 
 Visit http://your-github-username.github.io and https://your-github-username.github.io. You should see the contents of your index.html file at both the unsecured and secured addresses.
