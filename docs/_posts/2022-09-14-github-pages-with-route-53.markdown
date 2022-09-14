@@ -35,12 +35,12 @@ Visit http://your-github-username.github.io and https://your-github-username.git
 8. Under the Type dropdown, select A — IPv4 addresses
 9. No to Alias 
 10. Enter the following four IP addresses into the value text area. Then click Save Record Set.
-`
-185.199.108.153
-185.199.109.153
-185.199.110.153
-185.199.111.153
-`
+	```
+    185.199.108.153
+    185.199.109.153
+    185.199.110.153
+    185.199.111.153
+    ```
 11. Click Create Records
 
 #### Configure sub domain
