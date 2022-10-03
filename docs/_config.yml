@@ -21,7 +21,7 @@
 title: Tran Quang Sang
 email: sangqt.inb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  New experiment with Github Pages and Jekyll
+  Personal blog for cloud and DevOps related topics
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
