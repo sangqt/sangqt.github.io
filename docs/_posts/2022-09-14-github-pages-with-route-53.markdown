@@ -1,4 +1,4 @@
-# How to deploy GitHub pages with AWS Route 53 registered custom domain and force HTTPS
+# How to deploy GitHub pages with AWS Route 53 registered custom domain
 In this guide I will explain how to deploy a website to GitHub pages forcing HTTPS over a custom domain that is registered with AWS Route 53. We will set up our domain so that the www subdomain will redirect to the apex domain.
 
 **Summary**
